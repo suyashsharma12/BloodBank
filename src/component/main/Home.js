@@ -41,7 +41,7 @@ const App = () => {
               <img src={img1} alt="Article 3" className="article-image" />
               <h3 className="article-title">Register for Blood Donation</h3>
               <p className="article-content">"Registering as a blood donor at a camp is a pledge of life, a simple yet profound commitment to saving lives and spreading hope in times of need."</p>
-              <a href="/Register"><button>Donor</button></a>
+              <Link to="/Register"><button>Donor</button></Link>
             </div>
             
             <div className="article-card">
@@ -49,14 +49,14 @@ const App = () => {
               <h3 className="article-title">Search Blood/Plasma</h3>
               <p className="article-content">
 "The search for blood and plasma is a quest for life itself, where each donation becomes a beacon of hope for those battling illness. In every drop lies the potential to save a life, uniting donors and recipients in a powerful bond of resilience and compassion."</p>
-              <a href="/Search"><button>Search</button></a>
+              <Link to="/Search"><button>Search</button></Link>
             </div>
             
             <div className="article-card">
               <img src={img2} alt="Article 3" className="article-image" />
               <h3 className="article-title"> Blood Donation Camps</h3>
               <p className="article-content">"Blood donation camps symbolize human compassion, unity, and hope, where each donated drop represents a lifeline for those in need."</p>
-              <a href="/RegisterCamp"><button>Register for Camp</button></a>
+              <Link to="/RegisterCamp"><button>Register for Camp</button></Link>
             </div>
             
             
