@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route, HashRouter as Router, Routes } from 'react-router-dom';
 import Home from './component/main/Home';
 import Login from './component/Login';
 import Register from './component/Register';
@@ -8,7 +8,7 @@ import Contact from './component/Contact';
 import Search from './component/Search';
 import RegisterCamp from './component/RegisterCamp';
 import Signup from './component/Signup';
-import { HashRouter as Router } from "react-router-dom";
+
 
 
 
