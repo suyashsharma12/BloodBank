@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './RegisterCamp.css';
 import axios from 'axios'; // Import axios for making HTTP requests
 
 const RegisterCamp = () => {
     const [ID, setID] = useState('');
-    const [fullName, setFullName] = useState('');
+    const [fullNamLink, toFullName] = useState('');
     const [bloodGroup, setBloodGroup] = useState('');
     const [contactNo, setcontactNo] = useState('');
     const [Address, setAddress] = useState('');
@@ -38,9 +38,9 @@ const RegisterCamp = () => {
         <div>
             <nav>
                 <span className="mm">Blood Bank</span>
-                <a href="home">Home</a>
-                <a href="search">Search</a>
-                <a href="Registercamp">Camp</a>
+                <Link to="home">Home</Link>
+                <Link to="search">Search</Link>
+                <Link to="Registercamp">Camp</Link>
             </nav>
             <div className="RegisterCamp-container">
                 <form className="login-form" onSubmit={handleRegistration}>

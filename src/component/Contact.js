@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import './Contact.css'; 
 
@@ -35,9 +35,9 @@ const Contact = () => {
         <div>
             <nav>
                 <span className="mm">Blood Bank</span>
-                <a href="Home">Home</a>
-                <a href="Login">Login</a>
-                <a href="Contact">Contact Us</a>
+                <Link to="Home">Home</Link>
+                <Link to="Login">Login</Link>
+                <Link to="Contact">Contact Us</Link>
             </nav>
             <div className="contact-container">
                 <form className="contact-form" onSubmit={handleContact}>
