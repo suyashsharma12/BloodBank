@@ -1,0 +1,126 @@
+
+.blood-search-container {
+    background-color:red; 
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blood-search-container h1 {
+    color: #333;
+}
+
+.blood-search-container form {
+    margin-bottom: 20px;
+}
+
+.blood-search-container input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+}
+
+.blood-search-container button {
+    padding: 10px 20px;
+    background-color: 	red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.blood-search-container button:hover {
+    background-color: 	#9b0000;
+}
+
+.blood-search-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.blood-search-container th, .blood-search-container td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.blood-search-container th {
+    background-color: #f2f2f2;
+}
+
+.actions button {
+    margin-right: 10px;
+}
+
+.actions button:last-child {
+    margin-right: 0;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-content form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-content form button {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modal-content form button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content form button[type="button"] {
+    background-color: #6c757d;
+}
+
+.modal-content form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+.blood-search-container {
+    background-color:red; 
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

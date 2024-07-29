@@ -1,0 +1,18 @@
+.signup-container {
+
+    font-size: large;
+   background-image: url('../image/sign.jpg');
+    background-size: cover;
+    color: cyan;
+   
+
+    background-color: #fff;
+    padding: 5.1%;
+    padding-left: 55%;
+    padding-right: 5%;
+    
+
+}
+.signup-form h2{
+    text-align: center;
+}

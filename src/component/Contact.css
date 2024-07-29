@@ -1,0 +1,17 @@
+
+.contact-container {
+    font-size: large;
+    background-image: url('../image/cont2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  
+    padding: 8%;
+    padding-left: 15%;
+    padding-right: 55%;
+    
+}
+.contact-form h2{
+    text-align: center;
+}
