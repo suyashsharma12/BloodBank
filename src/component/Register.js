@@ -37,9 +37,9 @@ const Register = () => {
         <div>
             <nav>
                 <span className="mm">Blood Bank</span>
-                <a href="home">Home</a>
-                <a href="search">Search</a>
-                <a href="Registercamp">Camp</a>
+                <Link to="home">Home</Link>
+                <Link to="search">Search</Link>
+                <Link to="Registercamp">Camp</Link>
             </nav>
             <div className="Register-container">
                 <form className="login-form" onSubmit={handleRegistration}>

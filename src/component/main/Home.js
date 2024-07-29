@@ -23,7 +23,7 @@ const App = () => {
           <ul className="nav-links">
           <Link to="/Login">Login</Link>
           <Link to="/Contact ">Contact Us</Link>
-          <a href="#instruction">Instruction</a>
+          <Link to="#instruction">Instruction</Link>
           </ul>
         </nav>
         <div className="hero">

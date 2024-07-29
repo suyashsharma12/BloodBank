@@ -43,9 +43,9 @@ const Login = () => {
         <div>
             <nav>
                 <span className="mm">Blood Bank</span>
-                <a href="Home">Home</a>
-                <a href="Signup">Signup</a>
-                <a href="Contact">Contact Us</a>
+                <Link to="Home">Home</Link>
+                <Link to="Signup">Signup</Link>
+                <Link to="Contact">Contact Us</Link>
             </nav>
             <div className="login-container">
                 <form className="login-form" onSubmit={handleLogin}>
