@@ -7,7 +7,7 @@ import Register from './component/Register';
 import Contact from './component/Contact';
 import Search from './component/Search';
 import RegisterCamp from './component/RegisterCamp';
-import Signup from './component/Signup';zzzzz
+import Signup from './component/Signup';
 
 
 
