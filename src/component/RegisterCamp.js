@@ -5,7 +5,7 @@ import axios from 'axios'; // Import axios for making HTTP requests
 
 const RegisterCamp = () => {
     const [ID, setID] = useState('');
-    const [fullNamLink, toFullName] = useState('');
+    const [fullName, setFullName] = useState('');
     const [bloodGroup, setBloodGroup] = useState('');
     const [contactNo, setcontactNo] = useState('');
     const [Address, setAddress] = useState('');
