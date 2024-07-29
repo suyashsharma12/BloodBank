@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BloodBank/static/css/main.d3e096c0.css",
+    "main.js": "/BloodBank/static/js/main.d32d2249.js",
+    "static/js/787.989bc096.chunk.js": "/BloodBank/static/js/787.989bc096.chunk.js",
+    "static/media/search.jpg": "/BloodBank/static/media/search.5cf0414e35642a6d0feb.jpg",
+    "static/media/article2.jpg": "/BloodBank/static/media/article2.509312e6af224438ad7c.jpg",
+    "static/media/sign.jpg": "/BloodBank/static/media/sign.961f2391a2796a93d86a.jpg",
+    "static/media/article3.jpg": "/BloodBank/static/media/article3.a054c4fc119eaef11b2a.jpg",
+    "static/media/Login.jpg": "/BloodBank/static/media/Login.c2e2a2d404d9ea998859.jpg",
+    "static/media/cont2.jpg": "/BloodBank/static/media/cont2.1e5dd60c738e3a1b068d.jpg",
+    "static/media/article1.jpg": "/BloodBank/static/media/article1.8d1bcb5e571e98d8356a.jpg",
+    "static/media/donor.jpg": "/BloodBank/static/media/donor.83886c9ab99adfc3bc90.jpg",
+    "static/media/tt2.png": "/BloodBank/static/media/tt2.947eb02b2305dcc1e286.png",
+    "static/media/try4.webp": "/BloodBank/static/media/try4.fe1a241580d56d4069d4.webp",
+    "index.html": "/BloodBank/index.html",
+    "main.d3e096c0.css.map": "/BloodBank/static/css/main.d3e096c0.css.map",
+    "main.d32d2249.js.map": "/BloodBank/static/js/main.d32d2249.js.map",
+    "787.989bc096.chunk.js.map": "/BloodBank/static/js/787.989bc096.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3e096c0.css",
+    "static/js/main.d32d2249.js"
+  ]
+}
